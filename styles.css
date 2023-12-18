@@ -11,11 +11,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 12px 200px;
 }
 
 .header-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-text {
@@ -26,6 +27,7 @@ body {
 
 ul {
   display: flex;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -36,4 +38,47 @@ a {
   text-decoration: none;
   color: #ECE3CE;
   font-size: 18px;
+}
+
+.subheader {
+  display: flex;
+  margin: 104px 0;
+}
+
+.hero-main, .placeholder {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ECE3CE;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-subtext {
+  font-size: 18px;
+  padding: 8px 0 12px 0;
+  filter: contrast(75%);
+}
+
+button {
+  color: #3A4D39;
+  background-color: #ECE3CE;
+  font-size: 18px;
+  padding: 4px 16px;
+  border-radius: 10px;
+  border: #3A4D39 solid 1px;
 }
