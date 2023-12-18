@@ -46,7 +46,6 @@ a {
 }
 
 .hero-main, .placeholder {
-  border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 100%;
@@ -72,6 +71,7 @@ a {
   font-size: 18px;
   padding: 8px 0 12px 0;
   filter: contrast(75%);
+  line-height: 140%;
 }
 
 button {
@@ -81,4 +81,19 @@ button {
   padding: 4px 16px;
   border-radius: 10px;
   border: #3A4D39 solid 1px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 12px 200px;
+}
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
 }
