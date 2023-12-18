@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: #739072;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ECE3CE;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #ECE3CE;
+  font-size: 18px;
+}
