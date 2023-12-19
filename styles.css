@@ -87,7 +87,9 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 12px 200px;
+  padding: 0 200px;
+  padding-bottom: 120px;
+  background-color: #f8f4e9;
 }
 
 .info-header-text {
@@ -95,5 +97,99 @@ button {
   font-weight: 800;
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info-tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 250px;
+ height: auto;
+}
+
+.tile {
+  border: solid #3A4D39 5px;
+  border-radius: 20px;
+  height: 180px;
+  width: 180px;
+  display: flex;
+}
+
+.text {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 340px;
+  padding-bottom: 120px;
+  background-color: #e6e2d2;
+}
+
+.testimonial-text {
+  font-size: 36px;
+  font-style: italic;
+  padding-top: 12%;  
+}
+
+.testimonial-textby {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.CTA-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f4e9;
+  padding: 100px 210px;
+}
+
+.modal {
+  background: #739072;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 40px 80px ;
+  color: #f8f4e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+} 
+
+.modal-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-text-header {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.modal-subtext {
+  filter: contrast(80%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 300px;
+  font-size: 12px;
+  background-color: #637c63;
+  color: white;
 }
